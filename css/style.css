@@ -2,3 +2,76 @@
 /* * {
     border: 1px solid;
 } */
+
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+/* header */
+.logo {
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+  }
+
+section {
+    text-align: center;
+}
+
+  
+nav {
+    display: flex;
+}
+
+nav a {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.banner-form {
+    display: flex;
+    gap: 32px;
+}
+
+.banner-img {
+    border: 1px solid;
+    height: 250px;
+    width: 100%;
+}
+
+.banner-form form {
+    border: 1px solid;
+    height: 250px;
+    width: 100%;
+}
+
+/* content */
+.sub-content {
+    height: 500px;
+    border: 1px solid;
+    align-content: center;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+/* Screen */
+@media only screen and (max-width: 480px) {
+    .banner-form {
+        flex-direction: column;
+    }
+}
