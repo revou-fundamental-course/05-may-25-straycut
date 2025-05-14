@@ -67,7 +67,6 @@ nav a {
 .slider {
   position: relative;
   width: 100%;
-  max-width: 800px;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 10px;
@@ -154,6 +153,7 @@ nav a {
 .banner-img {
     border: 1px solid;
     width: 100%;
+    align-content: center;
 }
 
 .banner-form form {
@@ -337,7 +337,7 @@ nav a {
 }
 
 /* Responsive tweaks (optional) */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .closing-section h2 {
     font-size: 18px;
   }
@@ -349,7 +349,7 @@ nav a {
   .icon {
     font-size: 24px;
   }
-}
+} */
 
 /* footer */
 footer {
